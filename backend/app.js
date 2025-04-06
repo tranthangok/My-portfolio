@@ -8,7 +8,7 @@ app.use(
       origin: ['https://tran-thang.vercel.app'],
       methods: ["GET", "POST", "OPTIONS"],
       allowedHeaders: ['Content-Type', 'Authorization'],
-      credentials: false
+      credentials: true
     })
   );
 app.options('*', cors());
