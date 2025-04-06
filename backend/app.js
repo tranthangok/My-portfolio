@@ -5,7 +5,7 @@ const app = express();
 
 app.use(
     cors({
-      origin: ['http://localhost:5173'],
+      origin: ['https://tran-thang.vercel.app', 'https://backend-portfolio-eight-red.vercel.app'],
       methods: ["GET", "POST"],
     })
   );
