@@ -150,7 +150,7 @@ const MainScreen = ({language }) => {
             <div className="role-container">
               <span className="changing-role">{roles[currentRole]}</span>
             </div>
-            <p className="subtext">I'm a student at [...] and I'm looking forward to having an Internship or Summer Trainee position.</p>
+            <p className="subtext">I'm a student at LAB University of Applied Science and I'm looking forward to having an Internship or Summer Trainee position.</p>
               <div className="button-group">
               <a href="#contact" className="action-btn contact-btn">
                 Contact Me
@@ -178,7 +178,7 @@ const MainScreen = ({language }) => {
               <span className="changing-role">{roles[currentRole]}</span>
             </div>
             <p className="subtext">
-              Tôi là sinh viên tại [...] và đang mong muốn tìm kiếm cơ hội Thực tập hoặc Học việc trong hè.
+              Tôi là sinh viên tại Đại học khoa học Ứng dụng LAB và đang mong muốn tìm kiếm cơ hội Thực tập hoặc Học việc trong hè.
             </p>
             <div className="button-group">
               <a href="#contact" className="action-btn contact-btn">
@@ -207,7 +207,7 @@ const MainScreen = ({language }) => {
               <span className="changing-role">{roles[currentRole]}</span>
             </div>
             <p className="subtext">
-            Ich bin Student an der [...] und suche nach Praktikums- oder 
+            Ich bin Student an der LAB Fachhochschule und suche nach Praktikums- oder 
             Sommerausbildungsmöglichkeiten.
             </p>
             <div className="button-group">
