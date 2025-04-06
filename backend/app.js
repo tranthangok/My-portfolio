@@ -6,10 +6,13 @@ const app = express();
 app.use(
     cors({
       origin: ['https://tran-thang.vercel.app', 'https://backend-portfolio-eight-red.vercel.app'],
-      methods: ["GET", "POST"],
+      methods: ["GET", "POST", "OPTIONS"],
+      allowedHeaders: ['Content-Type', 'Authorization'],
     })
   );
+app.options('*', cors());
 app.use(express.json());
+
 
 const emailRouter = require('./Message');
 app.use('/api/email', emailRouter);
