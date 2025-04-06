@@ -5,7 +5,7 @@ const app = express();
 
 app.use(
     cors({
-      origin: ['https://tran-thang.vercel.app', 'https://backend-portfolio-eight-red.vercel.app'],
+      origin: ['https://tran-thang.vercel.app'],
       methods: ["GET", "POST", "OPTIONS"],
       allowedHeaders: ['Content-Type', 'Authorization'],
     })
