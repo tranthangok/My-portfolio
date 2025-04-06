@@ -32,7 +32,7 @@ const MainScreen = ({language }) => {
     setIsLoading(true);
 
     try {
-      await axios.post('http://localhost:3000/api/email/send-message', formData);
+      await axios.post('https://backend-portfolio.vercel.app/api/email/send-message', formData);
       showNotification('success', 
         language === 'en' ? 'Message sent successfully!' :
         language === 'vi' ? 'Gửi tin nhắn thành công!' :
